@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="left">
+      <div class="logo">
+        <img
+          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          alt="odin-logo"
+        />ODIN
+      </div>
+      <div class="cite">Photo by Halie West on Unsplash</div>
+    </div>
+    <div class="right">
+      <div class="top">
+        <div class="text">
+          <div class="text1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            assumenda illum qui?
+          </div>
+          <div class="text2">Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>
+      <div class="middle">Let's do this!
+        <form action="#">
+            <div class="details">
+                <div class="section">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name">
+                </div>
+
+                <div class="section">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+            </div>
+            <div class="details">
+                <div class="section">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="section">
+                    <label for="phone">phone number</label>
+                    <input type="number" id="phone" name="phone">
+                </div>
+            </div>
+            <div class="details">
+                <div class="section">
+                    <label for="password">password</label>
+                    <input type="password" id="password" name="password" minlength="8">
+                </div>
+
+                <div class="section">
+                    <label for="confirm-passwd">confirm password</label>
+                    <input type="password" id="confirm-passwd" name="confirm-passwd" minlength="8">
+                </div>
+            </div>
+        </form>
+      </div>
+      <div class="bottom">
+            <button>Create Account</button>
+            Already have an account? <span>Log In?</span>
+      </div>
+    </div>
+  </body>
+</html>
